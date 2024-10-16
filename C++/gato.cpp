@@ -48,7 +48,7 @@ int main(){
         }
         elementos_tablero[opcion-1]=jugador;
         if(checarGanador(elementos_tablero)){
-            std::cout<<"Felicidades! el ganador ha sido el jugador "<<jugador<<std::endl;
+            std::cout<<"Felicidades!! el ganador ha sido el jugador "<<jugador<<std::endl;
             break;
         }
         jugador= jugador=='X'? 'O' : 'X';
